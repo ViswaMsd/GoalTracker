@@ -1,0 +1,9 @@
+.btn{
+    padding: .5rem 1rem;
+    margin: .5rem;
+    background-color: brown;
+    color: whitesmoke;
+    border: white 2px solid;
+    /* border-radius: .5rem; */
+
+}

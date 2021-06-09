@@ -1,0 +1,29 @@
+.inputForm {
+  background-color: white;
+  box-shadow: 0px 2px 8px #ccc;
+  max-width: 500px;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#input {
+  text-transform: capitalize;
+  min-width: 400px;
+  border: grey 2px solid;
+  padding: 0.4rem 1rem;
+  margin: 0.5rem 0rem;
+}
+.inputForm.invalid {
+  background-color: rgb(253, 220, 220);
+}
+.inputForm.invalid #input {
+  border: rgb(104, 6, 6) 2px solid;
+  background-color: rgb(252, 150, 150);
+}
+.inputForm.invalid label {
+  color: rgb(255, 0, 0);
+}
